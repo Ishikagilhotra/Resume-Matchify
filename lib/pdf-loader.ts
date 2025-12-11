@@ -2,6 +2,7 @@ import PDFParser from 'pdf2json';
 
 export function parsePdf(buffer: Buffer): Promise<string> {
     return new Promise((resolve, reject) => {
+        // @ts-ignore - pdf2json types may not match actual implementation
         const pdfParser = new PDFParser(null, 1); // 1 = text content only
 
         // @ts-ignore
