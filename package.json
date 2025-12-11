@@ -9,13 +9,25 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.45",
+    "@ai-sdk/groq": "^2.0.32",
+    "ai": "^5.0.110",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.26",
+    "jspdf": "^3.0.4",
+    "lucide-react": "^0.560.0",
     "next": "16.0.8",
+    "pdf-lib": "^1.17.1",
+    "pdf2json": "^4.0.0",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "tailwind-merge": "^3.4.0",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
